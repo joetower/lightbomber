@@ -1,0 +1,21 @@
+//////////////////////////////
+// Config
+// @_config.scss
+//////////////////////////////
+
+// 	================================================
+//	Compass Extensions
+// 	================================================
+@import '../../bower_components/breakpoint-sass/stylesheets/breakpoint';
+@import '../../bower_components/singularity/stylesheets/singularitygs';
+@import '../../bower_components/sass-toolkit/stylesheets/toolkit';
+@import '../../bower_components/sass-toolkit/stylesheets/toolkit/kickstart';
+@import '../../bower_components/compass-mixins/lib/compass';
+
+
+// 	================================================
+//	Private Imports
+// 	================================================
+@import 'variables';
+@import 'mixins';
+@import 'flexbox';

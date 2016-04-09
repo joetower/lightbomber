@@ -1,0 +1,17 @@
+//////////////////////////////
+// article
+// @_article.scss
+//////////////////////////////
+
+article {
+  p {
+    max-width: $max-width;
+    .button {
+      margin-top: $space-one-half;
+    }
+  }
+
+  &.teaser {
+    padding: $space-one-third;
+  }
+}

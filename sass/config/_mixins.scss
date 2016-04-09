@@ -1,0 +1,108 @@
+//////////////////////////////
+// Mixins
+// @_mixins.scss
+//////////////////////////////
+
+//////////////////////////////
+// Button Component Mixins
+//////////////////////////////
+
+@mixin button($color) {
+
+  @include transition(background-color 0.1s ease-in-out);
+
+  //defaults:
+  background: $color;
+  cursor: pointer;
+
+  $border-color: mix(black, $color, 35%);
+  border-color: $border-color;
+  border-style: solid;
+  border-width: 1px;
+  color: $black;
+  text-decoration: none;
+
+	&:hover {
+    background-color: lighten($color, 15%);
+    border-color: darken($border-color, 15%);
+    color: lighten($black, 10%);
+  }
+  &:visited {
+    background-color: $color;
+    color: $black;
+    border-color: $border-color;
+
+    &:hover {
+      background-color: lighten($color, 15%);
+      border-color: darken($border-color, 15%);
+      color: lighten($black, 10%);
+    }
+  }
+	&:active,
+  &:focus {
+    outline-color:$border-color;
+    background-color: lighten($color, 15%);
+    border-color: darken($border-color, 15%);
+    color: lighten($black, 10%);
+	}
+
+  &.btn-tertiary {
+    color: $black;
+    &:hover {
+      color: $black;
+      background-color: darken($color, 20%);
+    }
+    &:active,
+    &:focus {
+      color: $black;
+      outline-color:$border-color;
+      background-color: darken($color, 20%);
+      border-color: darken($border-color, 20%);
+    }
+  }
+  &.btn-quaternary {
+    color: $white;
+
+    &:hover {
+      color: $white;
+      background-color: lighten($color, 30%);
+    }
+    &:active,
+    &:focus {
+      color: $white;
+      outline-color:lighten($border-color, 20%);
+      background-color: lighten($color, 20%);
+      border-color: lighten($border-color, 20%);
+    }
+  }
+}
+
+//////////////////////////////
+// Rem font-size Mixins
+//////////////////////////////
+// Adds px value for fallback - then rem value
+// use example =   @include font-size(1.6); = 1.6rem / 16px
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+//////////////////////////////
+// Intrinsic Ratio
+//////////////////////////////
+
+@mixin intrinsic-ratio($ratio: 1 1, $selector: "> :first-child") {
+	$selector: unquote($selector);
+
+	padding-bottom: percentage(nth($ratio, 2) / nth($ratio, 1));
+	position: relative;
+
+	#{$selector} {
+		left: 0;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}

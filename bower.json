@@ -1,0 +1,27 @@
+{
+  "name": "lightbomb_aurora",
+  "description": "D7 theme for Lightbomber",
+  "main": "",
+  "authors": [
+    "Joe Tower <joe@joetower.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http:lightbomber.com",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-breakpoint": "breakpoint-sass#~2.6.1",
+    "singularity": "~1.6.2",
+    "breakpoint-sass": "~2.6.1",
+    "sass-toolkit": "~2.9.0",
+    "compass-mixins": "~1.0.2",
+    "matchMedia": "~0.2.0"
+  }
+}

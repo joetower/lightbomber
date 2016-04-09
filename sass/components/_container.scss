@@ -1,0 +1,11 @@
+//////////////////////////////
+// container
+// @_container.scss
+//////////////////////////////
+
+.container,
+%container {
+  margin: 0 auto;
+  max-width: $grid-width;
+  padding: 0;
+}

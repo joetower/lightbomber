@@ -1,0 +1,60 @@
+//////////////////////////////
+// frontpage
+// @_frontpage.scss
+//////////////////////////////
+
+.front {
+  section {
+    @include clearfix();
+    padding: $space 0;
+  }
+  .section-content {
+    max-width: $max-width;
+  }
+  // top splash
+  .top {
+    position: relative;
+
+    figure {
+      z-index: 0;
+    }
+    .section-content {
+      margin: 0 auto;
+      position: absolute;
+      bottom: 50%;
+      left:0;
+      right:0;
+      text-align: center;
+    }
+  }
+
+  // about
+  .about {
+    figure {
+      @include grid-span(8,1);
+    }
+    .section-content {
+      @include grid-span(8,9);
+      max-width: $max-width;
+    }
+  }
+  // blog
+  .blog {
+    .views-row {
+      @include breakpoint($large) {
+        @include layout(2) {
+          @include grid-span(1,1, $output-style: "float", $gutter:0);
+        }
+        &.views-row-3 {
+          clear: left;
+        }
+        padding: $space;
+      }
+    }
+    .more-link {
+      clear: both;
+      text-align: center;
+    }
+  }
+
+}

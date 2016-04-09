@@ -1,0 +1,758 @@
+.icon-account_circle-black { background-image: url('png/account_circle-black.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-blue { background-image: url('png/account_circle-blue.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-blueDark { background-image: url('png/account_circle-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-blueLight { background-image: url('png/account_circle-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-gray { background-image: url('png/account_circle-gray.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-grayDark { background-image: url('png/account_circle-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-white { background-image: url('png/account_circle-white.png'); background-repeat: no-repeat; }
+
+.icon-account_circle-yellow { background-image: url('png/account_circle-yellow.png'); background-repeat: no-repeat; }
+
+.icon-account_circle { background-image: url('png/account_circle.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-black { background-image: url('png/add_circle-black.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-blue { background-image: url('png/add_circle-blue.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-blueDark { background-image: url('png/add_circle-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-blueLight { background-image: url('png/add_circle-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-gray { background-image: url('png/add_circle-gray.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-grayDark { background-image: url('png/add_circle-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-white { background-image: url('png/add_circle-white.png'); background-repeat: no-repeat; }
+
+.icon-add_circle-yellow { background-image: url('png/add_circle-yellow.png'); background-repeat: no-repeat; }
+
+.icon-add_circle { background-image: url('png/add_circle.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-black { background-image: url('png/arrow_drop_down-black.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-blue { background-image: url('png/arrow_drop_down-blue.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-blueDark { background-image: url('png/arrow_drop_down-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-blueLight { background-image: url('png/arrow_drop_down-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-gray { background-image: url('png/arrow_drop_down-gray.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-grayDark { background-image: url('png/arrow_drop_down-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-white { background-image: url('png/arrow_drop_down-white.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down-yellow { background-image: url('png/arrow_drop_down-yellow.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_down { background-image: url('png/arrow_drop_down.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-black { background-image: url('png/arrow_drop_up-black.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-blue { background-image: url('png/arrow_drop_up-blue.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-blueDark { background-image: url('png/arrow_drop_up-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-blueLight { background-image: url('png/arrow_drop_up-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-gray { background-image: url('png/arrow_drop_up-gray.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-grayDark { background-image: url('png/arrow_drop_up-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-white { background-image: url('png/arrow_drop_up-white.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up-yellow { background-image: url('png/arrow_drop_up-yellow.png'); background-repeat: no-repeat; }
+
+.icon-arrow_drop_up { background-image: url('png/arrow_drop_up.png'); background-repeat: no-repeat; }
+
+.icon-block-black { background-image: url('png/block-black.png'); background-repeat: no-repeat; }
+
+.icon-block-blue { background-image: url('png/block-blue.png'); background-repeat: no-repeat; }
+
+.icon-block-blueDark { background-image: url('png/block-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-block-blueLight { background-image: url('png/block-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-block-gray { background-image: url('png/block-gray.png'); background-repeat: no-repeat; }
+
+.icon-block-grayDark { background-image: url('png/block-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-block-white { background-image: url('png/block-white.png'); background-repeat: no-repeat; }
+
+.icon-block-yellow { background-image: url('png/block-yellow.png'); background-repeat: no-repeat; }
+
+.icon-block { background-image: url('png/block.png'); background-repeat: no-repeat; }
+
+.messages.success, .messages.status,
+.icon-check-black { background-image: url('png/check-black.png'); background-repeat: no-repeat; }
+
+.icon-check-blue { background-image: url('png/check-blue.png'); background-repeat: no-repeat; }
+
+.icon-check-blueDark { background-image: url('png/check-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-check-blueLight { background-image: url('png/check-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-check-gray { background-image: url('png/check-gray.png'); background-repeat: no-repeat; }
+
+.icon-check-grayDark { background-image: url('png/check-grayDark.png'); background-repeat: no-repeat; }
+
+.callout .check li,
+.icon-check-white { background-image: url('png/check-white.png'); background-repeat: no-repeat; }
+
+.icon-check-yellow { background-image: url('png/check-yellow.png'); background-repeat: no-repeat; }
+
+.check li,
+.icon-check { background-image: url('png/check.png'); background-repeat: no-repeat; }
+
+div:not(#foo) input[type="checkbox"]:checked + label,
+.icon-check_box-black { background-image: url('png/check_box-black.png'); background-repeat: no-repeat; }
+
+.icon-check_box-blue { background-image: url('png/check_box-blue.png'); background-repeat: no-repeat; }
+
+.icon-check_box-blueDark { background-image: url('png/check_box-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-check_box-blueLight { background-image: url('png/check_box-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-check_box-gray { background-image: url('png/check_box-gray.png'); background-repeat: no-repeat; }
+
+.icon-check_box-grayDark { background-image: url('png/check_box-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-check_box-white { background-image: url('png/check_box-white.png'); background-repeat: no-repeat; }
+
+.icon-check_box-yellow { background-image: url('png/check_box-yellow.png'); background-repeat: no-repeat; }
+
+.icon-check_box { background-image: url('png/check_box.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-black { background-image: url('png/check_box_outline_blank-black.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-blue { background-image: url('png/check_box_outline_blank-blue.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-blueDark { background-image: url('png/check_box_outline_blank-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-blueLight { background-image: url('png/check_box_outline_blank-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-gray { background-image: url('png/check_box_outline_blank-gray.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-grayDark { background-image: url('png/check_box_outline_blank-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-white { background-image: url('png/check_box_outline_blank-white.png'); background-repeat: no-repeat; }
+
+.icon-check_box_outline_blank-yellow { background-image: url('png/check_box_outline_blank-yellow.png'); background-repeat: no-repeat; }
+
+div:not(#foo) input[type="checkbox"] + label,
+.icon-check_box_outline_blank { background-image: url('png/check_box_outline_blank.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-black { background-image: url('png/check_circle-black.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-blue { background-image: url('png/check_circle-blue.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-blueDark { background-image: url('png/check_circle-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-blueLight { background-image: url('png/check_circle-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-gray { background-image: url('png/check_circle-gray.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-grayDark { background-image: url('png/check_circle-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-white { background-image: url('png/check_circle-white.png'); background-repeat: no-repeat; }
+
+.icon-check_circle-yellow { background-image: url('png/check_circle-yellow.png'); background-repeat: no-repeat; }
+
+.icon-check_circle { background-image: url('png/check_circle.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-black { background-image: url('png/chevron_left-black.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-blue { background-image: url('png/chevron_left-blue.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-blueDark { background-image: url('png/chevron_left-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-blueLight { background-image: url('png/chevron_left-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-gray { background-image: url('png/chevron_left-gray.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-grayDark { background-image: url('png/chevron_left-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-white { background-image: url('png/chevron_left-white.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left-yellow { background-image: url('png/chevron_left-yellow.png'); background-repeat: no-repeat; }
+
+.icon-chevron_left { background-image: url('png/chevron_left.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-black { background-image: url('png/chevron_right-black.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-blue { background-image: url('png/chevron_right-blue.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-blueDark { background-image: url('png/chevron_right-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-blueLight { background-image: url('png/chevron_right-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-gray { background-image: url('png/chevron_right-gray.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-grayDark { background-image: url('png/chevron_right-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-white { background-image: url('png/chevron_right-white.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right-yellow { background-image: url('png/chevron_right-yellow.png'); background-repeat: no-repeat; }
+
+.icon-chevron_right { background-image: url('png/chevron_right.png'); background-repeat: no-repeat; }
+
+.icon-close-black { background-image: url('png/close-black.png'); background-repeat: no-repeat; }
+
+.icon-close-blue { background-image: url('png/close-blue.png'); background-repeat: no-repeat; }
+
+.icon-close-blueDark { background-image: url('png/close-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-close-blueLight { background-image: url('png/close-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-close-gray { background-image: url('png/close-gray.png'); background-repeat: no-repeat; }
+
+.icon-close-grayDark { background-image: url('png/close-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-close-white { background-image: url('png/close-white.png'); background-repeat: no-repeat; }
+
+.icon-close-yellow { background-image: url('png/close-yellow.png'); background-repeat: no-repeat; }
+
+.icon-close { background-image: url('png/close.png'); background-repeat: no-repeat; }
+
+.icon-directions-black { background-image: url('png/directions-black.png'); background-repeat: no-repeat; }
+
+.icon-directions-blue { background-image: url('png/directions-blue.png'); background-repeat: no-repeat; }
+
+.icon-directions-blueDark { background-image: url('png/directions-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-directions-blueLight { background-image: url('png/directions-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-directions-gray { background-image: url('png/directions-gray.png'); background-repeat: no-repeat; }
+
+.icon-directions-grayDark { background-image: url('png/directions-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-directions-white { background-image: url('png/directions-white.png'); background-repeat: no-repeat; }
+
+.icon-directions-yellow { background-image: url('png/directions-yellow.png'); background-repeat: no-repeat; }
+
+.icon-directions { background-image: url('png/directions.png'); background-repeat: no-repeat; }
+
+.icon-email-black { background-image: url('png/email-black.png'); background-repeat: no-repeat; }
+
+.icon-email-blue { background-image: url('png/email-blue.png'); background-repeat: no-repeat; }
+
+.icon-email-blueDark { background-image: url('png/email-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-email-blueLight { background-image: url('png/email-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-email-gray { background-image: url('png/email-gray.png'); background-repeat: no-repeat; }
+
+.icon-email-grayDark { background-image: url('png/email-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-email-white { background-image: url('png/email-white.png'); background-repeat: no-repeat; }
+
+.icon-email-yellow { background-image: url('png/email-yellow.png'); background-repeat: no-repeat; }
+
+.icon-email { background-image: url('png/email.png'); background-repeat: no-repeat; }
+
+.icon-error-black { background-image: url('png/error-black.png'); background-repeat: no-repeat; }
+
+.icon-error-blue { background-image: url('png/error-blue.png'); background-repeat: no-repeat; }
+
+.icon-error-blueDark { background-image: url('png/error-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-error-blueLight { background-image: url('png/error-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-error-gray { background-image: url('png/error-gray.png'); background-repeat: no-repeat; }
+
+.icon-error-grayDark { background-image: url('png/error-grayDark.png'); background-repeat: no-repeat; }
+
+.messages.error,
+.icon-error-white { background-image: url('png/error-white.png'); background-repeat: no-repeat; }
+
+.icon-error-yellow { background-image: url('png/error-yellow.png'); background-repeat: no-repeat; }
+
+.icon-error { background-image: url('png/error.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-black { background-image: url('png/exit_to_app-black.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-blue { background-image: url('png/exit_to_app-blue.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-blueDark { background-image: url('png/exit_to_app-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-blueLight { background-image: url('png/exit_to_app-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-gray { background-image: url('png/exit_to_app-gray.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-grayDark { background-image: url('png/exit_to_app-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-white { background-image: url('png/exit_to_app-white.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app-yellow { background-image: url('png/exit_to_app-yellow.png'); background-repeat: no-repeat; }
+
+.icon-exit_to_app { background-image: url('png/exit_to_app.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-black { background-image: url('png/expand_less-black.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-blue { background-image: url('png/expand_less-blue.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-blueDark { background-image: url('png/expand_less-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-blueLight { background-image: url('png/expand_less-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-gray { background-image: url('png/expand_less-gray.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-grayDark { background-image: url('png/expand_less-grayDark.png'); background-repeat: no-repeat; }
+
+li.has-children > a.active, li.has-children > a.active:hover,
+.icon-expand_less-white { background-image: url('png/expand_less-white.png'); background-repeat: no-repeat; }
+
+.icon-expand_less-yellow { background-image: url('png/expand_less-yellow.png'); background-repeat: no-repeat; }
+
+.icon-expand_less { background-image: url('png/expand_less.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-black { background-image: url('png/expand_more-black.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-blue { background-image: url('png/expand_more-blue.png'); background-repeat: no-repeat; }
+
+li.has-children > a,
+.icon-expand_more-blueDark { background-image: url('png/expand_more-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-blueLight { background-image: url('png/expand_more-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-gray { background-image: url('png/expand_more-gray.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-grayDark { background-image: url('png/expand_more-grayDark.png'); background-repeat: no-repeat; }
+
+li.has-children > a:hover,
+.icon-expand_more-white { background-image: url('png/expand_more-white.png'); background-repeat: no-repeat; }
+
+.icon-expand_more-yellow { background-image: url('png/expand_more-yellow.png'); background-repeat: no-repeat; }
+
+.icon-expand_more { background-image: url('png/expand_more.png'); background-repeat: no-repeat; }
+
+.icon-facebook-black { background-image: url('png/facebook-black.png'); background-repeat: no-repeat; }
+
+.icon-facebook-blue { background-image: url('png/facebook-blue.png'); background-repeat: no-repeat; }
+
+.icon-facebook-blueDark { background-image: url('png/facebook-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-facebook-blueLight { background-image: url('png/facebook-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-facebook-gray { background-image: url('png/facebook-gray.png'); background-repeat: no-repeat; }
+
+.icon-facebook-grayDark { background-image: url('png/facebook-grayDark.png'); background-repeat: no-repeat; }
+
+.facebook,
+.icon-facebook-white { background-image: url('png/facebook-white.png'); background-repeat: no-repeat; }
+
+.icon-facebook-yellow { background-image: url('png/facebook-yellow.png'); background-repeat: no-repeat; }
+
+.icon-facebook { background-image: url('png/facebook.png'); background-repeat: no-repeat; }
+
+.icon-file_download-black { background-image: url('png/file_download-black.png'); background-repeat: no-repeat; }
+
+.icon-file_download-blue { background-image: url('png/file_download-blue.png'); background-repeat: no-repeat; }
+
+.icon-file_download-blueDark { background-image: url('png/file_download-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-file_download-blueLight { background-image: url('png/file_download-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-file_download-gray { background-image: url('png/file_download-gray.png'); background-repeat: no-repeat; }
+
+.icon-file_download-grayDark { background-image: url('png/file_download-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-file_download-white { background-image: url('png/file_download-white.png'); background-repeat: no-repeat; }
+
+.icon-file_download-yellow { background-image: url('png/file_download-yellow.png'); background-repeat: no-repeat; }
+
+.icon-file_download { background-image: url('png/file_download.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-black { background-image: url('png/file_upload-black.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-blue { background-image: url('png/file_upload-blue.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-blueDark { background-image: url('png/file_upload-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-blueLight { background-image: url('png/file_upload-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-gray { background-image: url('png/file_upload-gray.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-grayDark { background-image: url('png/file_upload-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-white { background-image: url('png/file_upload-white.png'); background-repeat: no-repeat; }
+
+.icon-file_upload-yellow { background-image: url('png/file_upload-yellow.png'); background-repeat: no-repeat; }
+
+.icon-file_upload { background-image: url('png/file_upload.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-black { background-image: url('png/format_quote-black.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-blue { background-image: url('png/format_quote-blue.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-blueDark { background-image: url('png/format_quote-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-blueLight { background-image: url('png/format_quote-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-gray { background-image: url('png/format_quote-gray.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-grayDark { background-image: url('png/format_quote-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-white { background-image: url('png/format_quote-white.png'); background-repeat: no-repeat; }
+
+.icon-format_quote-yellow { background-image: url('png/format_quote-yellow.png'); background-repeat: no-repeat; }
+
+blockquote,
+.icon-format_quote-yellowMidDark { background-image: url('png/format_quote-yellowMidDark.png'); background-repeat: no-repeat; }
+
+.icon-format_quote { background-image: url('png/format_quote.png'); background-repeat: no-repeat; }
+
+.icon-instagram-black { background-image: url('png/instagram-black.png'); background-repeat: no-repeat; }
+
+.icon-instagram-blue { background-image: url('png/instagram-blue.png'); background-repeat: no-repeat; }
+
+.icon-instagram-blueDark { background-image: url('png/instagram-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-instagram-blueLight { background-image: url('png/instagram-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-instagram-gray { background-image: url('png/instagram-gray.png'); background-repeat: no-repeat; }
+
+.icon-instagram-grayDark { background-image: url('png/instagram-grayDark.png'); background-repeat: no-repeat; }
+
+.instagram,
+.icon-instagram-white { background-image: url('png/instagram-white.png'); background-repeat: no-repeat; }
+
+.icon-instagram-yellow { background-image: url('png/instagram-yellow.png'); background-repeat: no-repeat; }
+
+.icon-instagram { background-image: url('png/instagram.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-black { background-image: url('png/local_airport-black.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-blue { background-image: url('png/local_airport-blue.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-blueDark { background-image: url('png/local_airport-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-blueLight { background-image: url('png/local_airport-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-gray { background-image: url('png/local_airport-gray.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-grayDark { background-image: url('png/local_airport-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-white { background-image: url('png/local_airport-white.png'); background-repeat: no-repeat; }
+
+.icon-local_airport-yellow { background-image: url('png/local_airport-yellow.png'); background-repeat: no-repeat; }
+
+.icon-local_airport { background-image: url('png/local_airport.png'); background-repeat: no-repeat; }
+
+.icon-location_city-black { background-image: url('png/location_city-black.png'); background-repeat: no-repeat; }
+
+.icon-location_city-blue { background-image: url('png/location_city-blue.png'); background-repeat: no-repeat; }
+
+.icon-location_city-blueDark { background-image: url('png/location_city-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-location_city-blueLight { background-image: url('png/location_city-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-location_city-gray { background-image: url('png/location_city-gray.png'); background-repeat: no-repeat; }
+
+.icon-location_city-grayDark { background-image: url('png/location_city-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-location_city-white { background-image: url('png/location_city-white.png'); background-repeat: no-repeat; }
+
+.icon-location_city-yellow { background-image: url('png/location_city-yellow.png'); background-repeat: no-repeat; }
+
+.icon-location_city { background-image: url('png/location_city.png'); background-repeat: no-repeat; }
+
+.icon-location_on-black { background-image: url('png/location_on-black.png'); background-repeat: no-repeat; }
+
+.icon-location_on-blue { background-image: url('png/location_on-blue.png'); background-repeat: no-repeat; }
+
+.icon-location_on-blueDark { background-image: url('png/location_on-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-location_on-blueLight { background-image: url('png/location_on-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-location_on-gray { background-image: url('png/location_on-gray.png'); background-repeat: no-repeat; }
+
+.icon-location_on-grayDark { background-image: url('png/location_on-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-location_on-white { background-image: url('png/location_on-white.png'); background-repeat: no-repeat; }
+
+.icon-location_on-yellow { background-image: url('png/location_on-yellow.png'); background-repeat: no-repeat; }
+
+.icon-location_on { background-image: url('png/location_on.png'); background-repeat: no-repeat; }
+
+.icon-map-black { background-image: url('png/map-black.png'); background-repeat: no-repeat; }
+
+.icon-map-blue { background-image: url('png/map-blue.png'); background-repeat: no-repeat; }
+
+.icon-map-blueDark { background-image: url('png/map-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-map-blueLight { background-image: url('png/map-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-map-gray { background-image: url('png/map-gray.png'); background-repeat: no-repeat; }
+
+.icon-map-grayDark { background-image: url('png/map-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-map-white { background-image: url('png/map-white.png'); background-repeat: no-repeat; }
+
+.icon-map-yellow { background-image: url('png/map-yellow.png'); background-repeat: no-repeat; }
+
+.icon-map { background-image: url('png/map.png'); background-repeat: no-repeat; }
+
+.icon-pause-black { background-image: url('png/pause-black.png'); background-repeat: no-repeat; }
+
+.icon-pause-blue { background-image: url('png/pause-blue.png'); background-repeat: no-repeat; }
+
+.icon-pause-blueDark { background-image: url('png/pause-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-pause-blueLight { background-image: url('png/pause-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-pause-gray { background-image: url('png/pause-gray.png'); background-repeat: no-repeat; }
+
+.icon-pause-grayDark { background-image: url('png/pause-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-pause-white { background-image: url('png/pause-white.png'); background-repeat: no-repeat; }
+
+.icon-pause-yellow { background-image: url('png/pause-yellow.png'); background-repeat: no-repeat; }
+
+.icon-pause { background-image: url('png/pause.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-black { background-image: url('png/pause_circle_filled-black.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-blue { background-image: url('png/pause_circle_filled-blue.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-blueDark { background-image: url('png/pause_circle_filled-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-blueLight { background-image: url('png/pause_circle_filled-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-gray { background-image: url('png/pause_circle_filled-gray.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-grayDark { background-image: url('png/pause_circle_filled-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-white { background-image: url('png/pause_circle_filled-white.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled-yellow { background-image: url('png/pause_circle_filled-yellow.png'); background-repeat: no-repeat; }
+
+.icon-pause_circle_filled { background-image: url('png/pause_circle_filled.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-black { background-image: url('png/photo_size_select_actual-black.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-blue { background-image: url('png/photo_size_select_actual-blue.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-blueDark { background-image: url('png/photo_size_select_actual-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-blueLight { background-image: url('png/photo_size_select_actual-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-gray { background-image: url('png/photo_size_select_actual-gray.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-grayDark { background-image: url('png/photo_size_select_actual-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-white { background-image: url('png/photo_size_select_actual-white.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual-yellow { background-image: url('png/photo_size_select_actual-yellow.png'); background-repeat: no-repeat; }
+
+.icon-photo_size_select_actual { background-image: url('png/photo_size_select_actual.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-black { background-image: url('png/pinterest-black.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-blue { background-image: url('png/pinterest-blue.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-blueDark { background-image: url('png/pinterest-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-blueLight { background-image: url('png/pinterest-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-gray { background-image: url('png/pinterest-gray.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-grayDark { background-image: url('png/pinterest-grayDark.png'); background-repeat: no-repeat; }
+
+.pinterest,
+.icon-pinterest-white { background-image: url('png/pinterest-white.png'); background-repeat: no-repeat; }
+
+.icon-pinterest-yellow { background-image: url('png/pinterest-yellow.png'); background-repeat: no-repeat; }
+
+.icon-pinterest { background-image: url('png/pinterest.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-black { background-image: url('png/play_arrow-black.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-blue { background-image: url('png/play_arrow-blue.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-blueDark { background-image: url('png/play_arrow-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-blueLight { background-image: url('png/play_arrow-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-gray { background-image: url('png/play_arrow-gray.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-grayDark { background-image: url('png/play_arrow-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-white { background-image: url('png/play_arrow-white.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow-yellow { background-image: url('png/play_arrow-yellow.png'); background-repeat: no-repeat; }
+
+.icon-play_arrow { background-image: url('png/play_arrow.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-black { background-image: url('png/play_circle_filled-black.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-blue { background-image: url('png/play_circle_filled-blue.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-blueDark { background-image: url('png/play_circle_filled-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-blueLight { background-image: url('png/play_circle_filled-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-gray { background-image: url('png/play_circle_filled-gray.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-grayDark { background-image: url('png/play_circle_filled-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-white { background-image: url('png/play_circle_filled-white.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled-yellow { background-image: url('png/play_circle_filled-yellow.png'); background-repeat: no-repeat; }
+
+.icon-play_circle_filled { background-image: url('png/play_circle_filled.png'); background-repeat: no-repeat; }
+
+.icon-print-black { background-image: url('png/print-black.png'); background-repeat: no-repeat; }
+
+.icon-print-blue { background-image: url('png/print-blue.png'); background-repeat: no-repeat; }
+
+.icon-print-blueDark { background-image: url('png/print-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-print-blueLight { background-image: url('png/print-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-print-gray { background-image: url('png/print-gray.png'); background-repeat: no-repeat; }
+
+.icon-print-grayDark { background-image: url('png/print-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-print-white { background-image: url('png/print-white.png'); background-repeat: no-repeat; }
+
+.icon-print-yellow { background-image: url('png/print-yellow.png'); background-repeat: no-repeat; }
+
+.icon-print { background-image: url('png/print.png'); background-repeat: no-repeat; }
+
+div:not(#foo) input[type="radio"]:checked + label,
+.icon-radio_button_checked-black { background-image: url('png/radio_button_checked-black.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-blue { background-image: url('png/radio_button_checked-blue.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-blueDark { background-image: url('png/radio_button_checked-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-blueLight { background-image: url('png/radio_button_checked-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-gray { background-image: url('png/radio_button_checked-gray.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-grayDark { background-image: url('png/radio_button_checked-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-white { background-image: url('png/radio_button_checked-white.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked-yellow { background-image: url('png/radio_button_checked-yellow.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_checked { background-image: url('png/radio_button_checked.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-black { background-image: url('png/radio_button_unchecked-black.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-blue { background-image: url('png/radio_button_unchecked-blue.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-blueDark { background-image: url('png/radio_button_unchecked-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-blueLight { background-image: url('png/radio_button_unchecked-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-gray { background-image: url('png/radio_button_unchecked-gray.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-grayDark { background-image: url('png/radio_button_unchecked-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-white { background-image: url('png/radio_button_unchecked-white.png'); background-repeat: no-repeat; }
+
+.icon-radio_button_unchecked-yellow { background-image: url('png/radio_button_unchecked-yellow.png'); background-repeat: no-repeat; }
+
+div:not(#foo) input[type="radio"] + label,
+.icon-radio_button_unchecked { background-image: url('png/radio_button_unchecked.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-black { background-image: url('png/remove_circle-black.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-blue { background-image: url('png/remove_circle-blue.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-blueDark { background-image: url('png/remove_circle-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-blueLight { background-image: url('png/remove_circle-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-gray { background-image: url('png/remove_circle-gray.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-grayDark { background-image: url('png/remove_circle-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-white { background-image: url('png/remove_circle-white.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle-yellow { background-image: url('png/remove_circle-yellow.png'); background-repeat: no-repeat; }
+
+.icon-remove_circle { background-image: url('png/remove_circle.png'); background-repeat: no-repeat; }
+
+.icon-search-black { background-image: url('png/search-black.png'); background-repeat: no-repeat; }
+
+.icon-search-blue { background-image: url('png/search-blue.png'); background-repeat: no-repeat; }
+
+.icon-search-blueDark { background-image: url('png/search-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-search-blueLight { background-image: url('png/search-blueLight.png'); background-repeat: no-repeat; }
+
+input.form-search,
+.icon-search-gray { background-image: url('png/search-gray.png'); background-repeat: no-repeat; }
+
+.icon-search-grayDark { background-image: url('png/search-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-search-white { background-image: url('png/search-white.png'); background-repeat: no-repeat; }
+
+.icon-search-yellow { background-image: url('png/search-yellow.png'); background-repeat: no-repeat; }
+
+.icon-search { background-image: url('png/search.png'); background-repeat: no-repeat; }
+
+.icon-share-black { background-image: url('png/share-black.png'); background-repeat: no-repeat; }
+
+.icon-share-blue { background-image: url('png/share-blue.png'); background-repeat: no-repeat; }
+
+.icon-share-blueDark { background-image: url('png/share-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-share-blueLight { background-image: url('png/share-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-share-gray { background-image: url('png/share-gray.png'); background-repeat: no-repeat; }
+
+.icon-share-grayDark { background-image: url('png/share-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-share-white { background-image: url('png/share-white.png'); background-repeat: no-repeat; }
+
+.icon-share-yellow { background-image: url('png/share-yellow.png'); background-repeat: no-repeat; }
+
+.icon-share { background-image: url('png/share.png'); background-repeat: no-repeat; }
+
+.icon-twitter-black { background-image: url('png/twitter-black.png'); background-repeat: no-repeat; }
+
+.icon-twitter-blue { background-image: url('png/twitter-blue.png'); background-repeat: no-repeat; }
+
+.icon-twitter-blueDark { background-image: url('png/twitter-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-twitter-blueLight { background-image: url('png/twitter-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-twitter-gray { background-image: url('png/twitter-gray.png'); background-repeat: no-repeat; }
+
+.icon-twitter-grayDark { background-image: url('png/twitter-grayDark.png'); background-repeat: no-repeat; }
+
+.twitter,
+.icon-twitter-white { background-image: url('png/twitter-white.png'); background-repeat: no-repeat; }
+
+.icon-twitter-yellow { background-image: url('png/twitter-yellow.png'); background-repeat: no-repeat; }
+
+.icon-twitter { background-image: url('png/twitter.png'); background-repeat: no-repeat; }
+
+.messages.warning,
+.icon-warning-black { background-image: url('png/warning-black.png'); background-repeat: no-repeat; }
+
+.icon-warning-blue { background-image: url('png/warning-blue.png'); background-repeat: no-repeat; }
+
+.icon-warning-blueDark { background-image: url('png/warning-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-warning-blueLight { background-image: url('png/warning-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-warning-gray { background-image: url('png/warning-gray.png'); background-repeat: no-repeat; }
+
+.icon-warning-grayDark { background-image: url('png/warning-grayDark.png'); background-repeat: no-repeat; }
+
+.icon-warning-white { background-image: url('png/warning-white.png'); background-repeat: no-repeat; }
+
+.icon-warning-yellow { background-image: url('png/warning-yellow.png'); background-repeat: no-repeat; }
+
+.icon-warning { background-image: url('png/warning.png'); background-repeat: no-repeat; }
+
