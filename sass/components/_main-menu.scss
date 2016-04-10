@@ -1,0 +1,83 @@
+//////////////////////////////
+// main menu
+// @_main-menu.scss
+//////////////////////////////
+
+.main-menu {
+
+  @include breakpoint($large) {
+    margin-top: $space-one-half;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    &.hidden--large {
+      button {
+        width: 100%;
+      }
+    }
+    @include breakpoint($small-menu) {
+      &.hidden--small {
+        display: none;
+        visibility: hidden;
+      }
+    }
+    @include breakpoint($medium) {
+      &.hidden--small {
+        display: inherit;
+        visibility: visible;
+      }
+      &.hidden--medium {
+        display: none;
+        visibility: hidden;
+      }
+    }
+    @include breakpoint($large) {
+      &.hidden--small {
+        display: inherit;
+        visibility: visible;
+      }
+      &.hidden--medium {
+        display: inherit;
+        visibility: visible;
+      }
+      &.hidden--large,
+      &.js-hidden--large {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
+  a {
+    @include font-size(1.4);
+
+    display: block;
+    font-weight: $sans-regular;
+    background-color: $blue;
+    color: $black;
+    text-align: center;
+    padding: $space-one-third $space-one-fourth;
+
+    @include breakpoint($large) {
+      @include font-size(1.6);
+      font-weight: $sans-bold;
+      padding: $space-one-half $space-one-half;
+    }
+    &:hover {
+      background-color: $gray;
+      color: $gray-lightest;
+    }
+    &.active,
+    &.is-active {
+      color: $white;
+      background-color: $gray-dark;
+      &:visited {
+        color: $white;
+        background-color: $gray-dark;
+      }
+    }
+  }
+}

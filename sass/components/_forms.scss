@@ -1,0 +1,63 @@
+//////////////////////////////
+// forms
+// @_forms.scss
+//////////////////////////////
+
+fieldset {
+  padding: 0 0 $space;
+  border: 0;
+  &:last-of-type {
+    padding:0;
+  }
+  h4 {
+    margin-bottom: $space-one-third;
+  }
+}
+.form-item {
+  &.text,
+  &.textarea,
+  &.email,
+  &.select {
+    font-weight: $sans-bold;
+  }
+}
+label + input[type=text],
+label + input[type=email],
+label + textarea {
+  display: block;
+  padding: $space-one-third;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: 2px solid $blue;
+
+  &:focus {
+    border-color: $blue-light;
+    outline-color: $blue-light;
+  }
+}
+input[type=email],
+input[type=text] {
+  width:100%;
+
+  @include breakpoint($medium) {
+    width: 300px;
+  }
+}
+textarea {
+  width:100%;
+
+  @include breakpoint($medium) {
+    width: 400px;
+  }
+}
+
+form {
+  article & {
+    max-width: $max-width;
+    padding: $space;
+    background-color: $gray-lightest;
+  }
+}

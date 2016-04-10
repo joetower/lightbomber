@@ -1,0 +1,15 @@
+//////////////////////////////
+// menu
+// @_menu.scss
+//////////////////////////////
+
+.menu,
+ul.menu {
+  margin: 0;
+  padding: 0;
+  font-family: $sans;
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}

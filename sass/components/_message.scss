@@ -1,0 +1,31 @@
+//////////////////////////////
+// message
+// @_message.scss
+//////////////////////////////
+
+.message,
+.messages {
+  @include font-size(1.8);
+  margin:$space-one-half 0;
+  padding: $space-one-half $space-one-half $space-one-half $space-triple;
+  font-weight: $sans-bold;
+  background-position: 30px center;
+  background-size: 32px;
+  box-shadow: none;
+  border-radius: 0;
+  
+  &.error {
+    color: $white;
+    background-color: $red;
+    border: $border-width solid $red-dark;
+  }
+  &.warning {
+    background-color: $yellow;
+    border: $border-width solid $yellow-dark;
+  }
+  &.success,
+  &.status {
+    background-color: $green;
+    border: $border-width solid $green-dark;
+  }
+}

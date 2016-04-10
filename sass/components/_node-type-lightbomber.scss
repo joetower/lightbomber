@@ -1,0 +1,35 @@
+//////////////////////////////
+// node-type-lightbomber
+// @_node-type-lightbomber.scss
+//////////////////////////////
+
+.node-type-lightbomber {
+  .content-wrap {
+    @include clearfix();
+    padding: $space;
+    border-top: $border-width solid $yellow;
+    background-color: $white;
+  }
+  .field-name-field-lb-extra-image {
+    margin-top: $space;
+    margin-bottom: $space;
+    .field-item {
+      display: inline-block;
+    }
+  }
+  .field-name-body {
+    margin-top: $space;
+    @include breakpoint($large) {
+      @include grid-span(11,1);
+    }
+  }
+  footer.byline {
+    margin-top: $space;
+    padding-top: $space-one-half;
+    border-top: $border-width solid $gray-light;
+
+    @include breakpoint($large) {
+      @include grid-span(5,12);
+    }
+  }
+}

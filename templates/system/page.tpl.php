@@ -69,7 +69,9 @@
 
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
-    <?php print render($page['header']); ?>
+    <div class="container">
+      <?php print render($page['header']); ?>
+    </div>
   </header>
 <?php endif; ?>
 
@@ -91,7 +93,9 @@
 </div>
 
 <?php if ($page['footer']): ?>
-  <footer id="footer" role="contentinfo">
-    <?php print render($page['footer']); ?>
+  <footer id="footer" role="contentinfo" class="site-footer">
+    <div class="container">
+      <?php print render($page['footer']); ?>
+    </div>
   </footer>
 <?php endif; ?>

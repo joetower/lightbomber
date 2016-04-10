@@ -1,0 +1,13 @@
+//////////////////////////////
+// header
+// @_header.scss
+//////////////////////////////
+
+header {
+  padding: $space-one-half;
+  color: $gray-mid;
+
+  @include breakpoint($large) {
+    padding: $space+$space-one-half $space-one-half;
+  }
+}

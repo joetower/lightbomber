@@ -89,14 +89,15 @@
   </header>
 
   <div class="content"<?php print $content_attributes; ?>>
+    <?php print render($content['field_lb_featured_image']); ?>
+
     <div class="container">
+      <?php print render($content['field_lb_extra_image']); ?>
+      <?php print render($content['field_lb_video']); ?>
+
       <div class="content-wrap">
-        <?php
-          // We hide the comments and links now so that we can render them later.
-          hide($content['comments']);
-          hide($content['links']);
-          print render($content);
-        ?>
+        <?php print render($content['body']); ?>
+
         <?php if ($display_submitted): ?>
           <footer class="byline">
             <?php print $user_picture; ?>
@@ -106,8 +107,5 @@
       </div>
     </div>
   </div>
-
-  <?php print render($content['links']); ?>
-  <?php print render($content['comments']); ?>
 
 </article>

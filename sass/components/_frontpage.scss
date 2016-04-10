@@ -1,0 +1,55 @@
+//////////////////////////////
+// frontpage
+// @_frontpage.scss
+//////////////////////////////
+
+.front {
+
+  .section-content {
+    max-width: $max-width;
+  }
+  // top splash
+  .top {
+    position: relative;
+
+    figure {
+      z-index: 0;
+    }
+    .section-content {
+      margin: 0 auto;
+      position: absolute;
+      top:45%;
+      left:0;
+      right:0;
+      text-align: center;
+    }
+  }
+
+  // about
+  .about {
+    background-color: $blue;
+    padding: $space 0;
+  }
+  // gallery
+  .gallery {
+    background-color: $black;
+    padding: $space 0;
+  }
+  // clients
+  .clients {
+    background-color: $white;
+    padding: $space 0;
+  }
+  // blog
+  .blog {
+    background-color: $black;
+    padding: $space 0;
+  }
+
+  // contact
+  .contact {
+    background-color: $black;
+    padding: $space 0;
+  }
+
+}

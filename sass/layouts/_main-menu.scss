@@ -1,0 +1,43 @@
+//////////////////////////////
+// main menu
+// @_main-menu.scss
+//////////////////////////////
+
+.main-menu {
+
+  ul {
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include flex(0 1 100%);
+    @include justify-content(flex-start);
+    @include align-items(stretch);
+    @include align-content(stretch);
+
+    @include breakpoint($large) {
+      @include align-items(flex-start);
+      @include align-content(flex-start);
+    }
+  }
+  li {
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include flex(1 0 25%);
+
+    @include breakpoint($medium) {
+      @include flex(1 0 16.666%);
+    }
+    @include breakpoint($large) {
+      @include flex(1 0 auto);
+    }
+
+    a {
+      @include flex(1 1 15%);
+      display: inline-block; /* non-flexbox browsers */
+      margin: 0;
+
+      @include breakpoint($large) {
+        @include flex(1 auto);
+      }
+    }
+  }
+}

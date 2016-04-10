@@ -1,0 +1,35 @@
+//////////////////////////////
+// logo
+// @_logo.scss
+//////////////////////////////
+
+.logo {
+  @include breakpoint($small-medium) {
+    max-width:300px;
+    min-width: 50px;
+  }
+
+  .not-front & {
+    max-width:500px;
+  }
+
+  .logo {
+    margin: 0;
+    padding: 0;
+    text-indent: -1000px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: (100/300) * 100%; // Intrinsic ratio
+
+    background: {
+      size: contain;
+      position: center center;
+      repeat: no-repeat;
+    }
+
+    &.lb {
+      background-image: url('../img/logos/lb-white.svg');
+      background-position: left center;
+    }
+  }
+}

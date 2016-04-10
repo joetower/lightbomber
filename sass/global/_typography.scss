@@ -15,11 +15,16 @@ html {
 }
 
 body {
-  @include font-size(1.6);
+  @include font-size(1.8);
 }
 // paragraphs
 p {
   margin: 0;
+
+  &.submitted {
+    @include font-size(1.8);
+    font-style: italic;
+  }
   + p {
     margin-top: $space+$space-one-half;
   }
@@ -55,8 +60,15 @@ h1,
 
   font-weight: $sans-bolder;
   color:$gray-dark;
+
+  &.logo {
+    @include font-size(5);
+  }
+  @include breakpoint($medium) {
+    @include font-size(4.5);
+  }
   @include breakpoint($large) {
-    @include font-size(5.6);
+    @include font-size(6);
     max-width: $max-width;
   }
 }
@@ -68,7 +80,7 @@ h2,
   color:$gray;
 
   @include breakpoint($large) {
-    @include font-size(2.8);
+    @include font-size(3.6);
   }
 
   // smaller for teaser titles
@@ -76,20 +88,10 @@ h2,
     @include font-size(1.8);
 
     @include breakpoint($large) {
-      @include font-size(2);
+      @include font-size(2.8);
     }
   }
 
-  &.subtitle {
-    @include font-size(1.8);
-    font-weight: $sans-regular;
-
-    @include breakpoint($large) {
-      @include font-size(2);
-      max-width: $max-width;
-      font-weight: $sans-bold;
-    }
-  }
   &.site-slogan {
     @include font-size(2);
     font-weight: $sans-bolder;
@@ -101,25 +103,25 @@ h2,
 }
 h3,
 %h3 {
-  @include font-size(2);
+  @include font-size(2.4);
 
   font-weight: $sans-bolder;
   color:$gray;
   text-transform: uppercase;
 
   @include breakpoint($large) {
-    @include font-size(2.4);
+    @include font-size(3);
   }
 }
 
 h4,
 %h4 {
-  @include font-size(1.6);
+  @include font-size(2);
 
   font-weight: $sans-bold;
 
   @include breakpoint($large) {
-    @include font-size(1.8);
+    @include font-size(2.4);
   }
 }
 h5 {

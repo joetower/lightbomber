@@ -19,10 +19,12 @@ regions[footer]       = 'Footer'
 
 stylesheets[all][] = 'css/style.css'
 stylesheets[print][] = 'css/print.css'
+stylesheets[all][] = 'img/icons/icons.svg.css'
 
 ; ========================================
 ; Scripts
 ; ========================================
+scripts[] = 'js/scripts.js'
 
 ; ========================================
 ; Modernizr
