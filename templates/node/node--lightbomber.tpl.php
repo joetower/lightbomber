@@ -89,7 +89,19 @@
   </header>
 
   <div class="content"<?php print $content_attributes; ?>>
-    <?php print render($content['field_lb_featured_image']); ?>
+    <?php if ($page): ?>
+      <div class="node-top">
+        <?php if ($title): ?>
+        <h1 class="page-title"><?php print $title; ?></h1>
+        <?php endif; ?>
+        <?php print render($content['field_lb_featured_image']); ?>
+      </div>
+
+      <?php else: ?>
+
+      <?php print render($content['field_lb_featured_image']); ?>
+
+    <?php endif; ?>
 
     <div class="container">
       <?php print render($content['field_lb_extra_image']); ?>

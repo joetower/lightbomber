@@ -8,6 +8,8 @@ base theme = aurora
 ; ========================================
 
 regions[header]       = 'Header'
+regions[tabs]         = 'Tabs'
+regions[messages]     = 'Messages'
 regions[main_prefix]  = 'Main Region Prefix'
 regions[content]      = 'Main Region'
 regions[main_suffix]  = 'Main Region Suffix'

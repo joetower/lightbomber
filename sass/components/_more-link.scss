@@ -1,0 +1,14 @@
+//////////////////////////////
+// more-link
+// @_more-link.scss
+//////////////////////////////
+
+.more-link {
+  @extend %btn-blue;
+  @extend %btn-small;
+  background-size: 30px;
+  background-position: 0 center;
+  font-weight: $sans-bolder;
+  margin: 0 auto;
+  max-width: $max-width;
+}

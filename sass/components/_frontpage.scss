@@ -44,12 +44,26 @@
   .blog {
     background-color: $black;
     padding: $space 0;
+
+    .teaser {
+      color: $white;
+    }
+    .field-name-body {
+      margin-top: $space-one-half;
+    }
+    .field-name-field-lb-featured-image {
+      width: 100%;
+    }
   }
 
   // contact
   .contact {
     background-color: $black;
     padding: $space 0;
+    
+    .webform-client-form {
+      margin: 0 auto;
+    }
   }
 
 }

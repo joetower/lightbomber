@@ -1,0 +1,59 @@
+//////////////////////////////
+// footer
+// @_footer.scss
+//////////////////////////////
+
+footer {
+  &.site-footer {
+    @include clearfix();
+
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include align-items(center);
+    @include justify-content(space-around);
+    @include align-content(flex-start);
+  }
+  .site-slogan {
+    @include flex(1 auto);
+    @include align-self(center);
+    max-width: 218px;
+    @include breakpoint($large) {
+      max-width: 300px;
+    }
+  }
+  .social {
+    @include flex(1 100%);
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+    @include align-items(center);
+    @include align-content(flex-start);
+    padding: 0;
+
+    @include breakpoint($large) {
+      @include justify-content(flex-end);
+    }
+    li {
+      @include flexbox();
+      @include flex-wrap(wrap);
+      @include flex(0 1 auto);
+      margin: 0;
+      list-style-type: none;
+    }
+    a {
+      display:block;
+      margin: 0 $space-one-third;
+      background-size: contain;
+      padding-bottom: 25px;
+      width:26px;
+      height: 0;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      opacity: 1;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
 
 .wrapper,
 %wrapper {
-  padding: 15px;
+  padding: 0;
 
   @include breakpoint($large) {
     padding: 0;

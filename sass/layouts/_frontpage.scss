@@ -20,7 +20,7 @@
   // blog
   .blog {
     .views-row {
-      @include breakpoint($large) {
+      @include breakpoint($medium) {
         @include layout(2) {
           @include grid-span(1,1, $output-style: "float", $gutter:0);
         }
@@ -33,6 +33,7 @@
     .more-link {
       clear: both;
       text-align: center;
+
     }
   }
 

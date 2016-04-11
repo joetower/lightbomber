@@ -6,8 +6,7 @@
 footer {
   &.site-footer {
     padding:$space-double $space;
-    margin-top: $space-double;
-    background-color: $gray;
+    background-color: $black;
     color: $white;
   }
 
@@ -21,5 +20,16 @@ footer {
       margin-right: $space-one-half;
     }
   }
+  .site-info {
+    @include font-size(1.4);
+    margin-top: $space;
+    text-align: center;
 
+    @include breakpoint($large) {
+      text-align: right;
+    }
+    p + p {
+      margin: $space-one-third 0 0;
+    }
+  }
 }

@@ -718,6 +718,25 @@ input.form-search,
 
 .icon-share { background-image: url('png/share.png'); background-repeat: no-repeat; }
 
+.icon-tumblr-black { background-image: url('png/tumblr-black.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-blue { background-image: url('png/tumblr-blue.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-blueDark { background-image: url('png/tumblr-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-blueLight { background-image: url('png/tumblr-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-gray { background-image: url('png/tumblr-gray.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-grayDark { background-image: url('png/tumblr-grayDark.png'); background-repeat: no-repeat; }
+
+.tumblr,
+.icon-tumblr-white { background-image: url('png/tumblr-white.png'); background-repeat: no-repeat; }
+
+.icon-tumblr-yellow { background-image: url('png/tumblr-yellow.png'); background-repeat: no-repeat; }
+
+.icon-tumblr { background-image: url('png/tumblr.png'); background-repeat: no-repeat; }
+
 .icon-twitter-black { background-image: url('png/twitter-black.png'); background-repeat: no-repeat; }
 
 .icon-twitter-blue { background-image: url('png/twitter-blue.png'); background-repeat: no-repeat; }

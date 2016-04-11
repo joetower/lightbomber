@@ -26,14 +26,14 @@ module.exports = {
     colors: {
 
       // Primary
-      blue: '#51C6D8',
-      blueLightest: '#DAF6FB',
-      blueLighter: '#99E8F4',
-      blueLight: '#5ADAEE',
-      blueMidDark: '#1998AB',
-      blueDark: '#126D7A',
-      yellow: '#F3E442',
-      yellowMidDark: '#E0D23C',
+      blue: '#13B5EA',
+      blueLightest: '#ECF9FD',
+      blueLighter: '#97DFF6',
+      blueLight: '#38C2EE',
+      blueMidDark: '#0D83A9',
+      blueDark: '#042B38',
+      yellow: '#C1D82F',
+      yellowMidDark: '#98AB20',
 
       // Grays and Neutrals
       gray: '#4A4A4A',
@@ -68,6 +68,7 @@ module.exports = {
       'instagram-white': ['.instagram'],
       'pinterest-white': ['.pinterest'],
       'twitter-white': ['.twitter'],
+      'tumblr-white': ['.tumblr'],
     },
   }
 };

@@ -4,10 +4,10 @@
 //////////////////////////////
 
 @import 'article';
-@import 'back-link';
 @import 'blockquote';
 @import 'body';
 @import 'button';
+@import 'back-link';
 @import 'checkbox';
 @import 'container';
 @import 'figure';
@@ -22,6 +22,10 @@
 @import 'message';
 @import 'radio';
 @import 'wrapper';
+@import 'add-this';
+@import 'more-link';
+@import 'tabs';
 
 // nodes
+@import 'node-top';
 @import 'node-type-lightbomber';

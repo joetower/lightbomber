@@ -75,9 +75,27 @@
   </header>
 <?php endif; ?>
 
+<?php if ($page['messages']): ?>
+  <section class="messages" role="alert">
+    <div class="container">
+      <?php print render($page['messages']); ?>
+    </div>
+  </section>
+<?php endif; ?>
+
+<?php if ($page['tabs']): ?>
+  <section class="tabs" role="alert">
+    <div class="container">
+      <?php print render($page['tabs']); ?>
+    </div>
+  </section>
+<?php endif; ?>
+
 <div class="wrapper">
   <?php if ($page['main_prefix']): ?>
-    <?php print render($page['main_prefix']); ?>
+    <div class="container">
+      <?php print render($page['main_prefix']); ?>
+    </div>
   <?php endif; ?>
 
   <?php if ($page['content']): ?>
@@ -86,16 +104,15 @@
     </main>
   <?php endif; ?>
 
-
   <?php if ($page['main_suffix']): ?>
-    <?php print render($page['main_suffix']); ?>
+    <div class="container">
+      <?php print render($page['main_suffix']); ?>
+    </div>
   <?php endif; ?>
 </div>
 
 <?php if ($page['footer']): ?>
   <footer id="footer" role="contentinfo" class="site-footer">
-    <div class="container">
-      <?php print render($page['footer']); ?>
-    </div>
+    <?php print render($page['footer']); ?>
   </footer>
 <?php endif; ?>

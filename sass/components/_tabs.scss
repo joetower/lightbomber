@@ -1,0 +1,47 @@
+//////////////////////////////
+// tabs
+// @_tabs.scss
+//////////////////////////////
+
+ .tabs {
+   max-width:$max-width;
+   padding: 0 $space-one-half;
+
+  ul.primary {
+    @extend %clearfix;
+    margin:$space-one-third 0;
+    border: none;
+    padding: 0;
+    font-size: 0;
+
+    li {
+      display: inline-block;
+      margin: 0;
+    }
+    a {
+      @include font-size(1.6);
+      margin: 0;
+      padding:$space-one-third $space-one-half;
+      color: $black;
+      background-color: $link;
+      border-style: solid;
+      border-width: 0 0 $space-one-sixth 0;
+      border-color:$blue;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      font-family:$sans;
+      font-weight: $sans-bolder;
+
+      &:hover {
+        background-color: $blue;
+        border-color: $yellow;
+      }
+      &.active {
+        color: $black;
+        background-color: $yellow;
+        border-color:$yellow;
+      }
+    }
+  }
+}
