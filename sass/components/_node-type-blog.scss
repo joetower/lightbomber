@@ -1,0 +1,63 @@
+//////////////////////////////
+// node-type-blog
+// @_node-type-blog.scss
+//////////////////////////////
+
+.node-type-blog {
+  .content-wrap {
+    @include clearfix();
+    padding: $space;
+    border-top: $border-width solid $yellow;
+    background-color: $white;
+  }
+  .field-name-field-blog-featured-image {
+    text-align: center;
+  }
+  .field-name-field-blog-extra-image {
+    @include clearfix();
+
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include flex-direction(row);
+    @include justify-content(space-between);
+    @include align-items(center);
+    @include align-content(flex-start);
+
+    margin-top: $space;
+    margin-bottom: $space;
+
+    .field-items {
+      @include flexbox();
+      @include flex-wrap(wrap);
+      @include flex-direction(row);
+      @include justify-content(flex-start);
+      @include align-items(flex-start);
+      @include align-content(space-between);
+    }
+    .field-item {
+      @include flexbox();
+      @include flex(0 1 90px);
+      margin: $space-one-sixth;
+
+      a,
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .field-name-body {
+    margin-top: $space;
+    @include breakpoint($large) {
+      @include grid-span(11,1);
+    }
+  }
+  footer.byline {
+    margin-top: $space;
+    padding-top: $space-one-half;
+    border-top: $border-width solid $gray-light;
+
+    @include breakpoint($large) {
+      @include grid-span(5,12);
+    }
+  }
+}
