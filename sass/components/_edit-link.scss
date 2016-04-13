@@ -1,0 +1,18 @@
+//////////////////////////////
+// edit-link
+// @_edit-link.scss
+//////////////////////////////
+
+.edit-link {
+  @include clearfix();
+  clear: both;
+
+  a,
+  a:visited {
+    @extend %button;
+    @extend %btn-tertiary;
+    @extend %btn-small;
+    display: block;
+    color: $white;
+  }
+}

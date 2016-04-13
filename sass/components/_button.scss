@@ -57,16 +57,20 @@ a.btn-yellow,
   color: $black;
 }
 
+a.btn-tertiary,
+a.btn-tertiary:link,
+a.btn-tertiary:visited,
+%btn-tertiary,
 .btn-tertiary,
-.btn-white,
-%btn-white {
-  @include button($white);
+.btn-tertiary:link,
+.btn-tertiary:visited {
+  @include button($red);
+  color: $white;
 }
-
-.btn-quaternary,
-.btn-black,
-%btn-black {
-  @include button($black);
+%btn-quaternary,
+.btn-quaternary {
+  @include button($white);
+  color: $link;
 }
 
 a.button.btn-small,

@@ -47,14 +47,14 @@
 	}
 
   &.btn-tertiary {
-    color: $black;
+    color: $white;
     &:hover {
-      color: $black;
+      color: $white;
       background-color: darken($color, 20%);
     }
     &:active,
     &:focus {
-      color: $black;
+      color: $white;
       outline-color:$border-color;
       background-color: darken($color, 20%);
       border-color: darken($border-color, 20%);

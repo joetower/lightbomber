@@ -103,7 +103,9 @@
 
     <?php endif; ?>
 
+    <?php if ($page): ?>
     <div class="container">
+    <?php endif; ?>
       <?php print render($content['field_blog_extra_image']); ?>
       <?php print render($content['field_blog_video']); ?>
 
@@ -117,7 +119,9 @@
           </footer>
         <?php endif; ?>
       </div>
+    <?php if ($page): ?>
     </div>
+    <?php endif; ?>
   </div>
 
 </article>

@@ -5,9 +5,5 @@
 
 .wrapper,
 %wrapper {
-  padding: 0;
-
-  @include breakpoint($large) {
-    padding: 0;
-  }
+  position: relative;
 }
