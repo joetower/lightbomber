@@ -4,11 +4,16 @@
 //////////////////////////////
 
 .more-link {
-  @extend %btn-blue;
-  @extend %btn-small;
-  background-size: 30px;
-  background-position: 0 center;
-  font-weight: $sans-bolder;
-  margin: 0 auto;
-  max-width: $max-width;
+  a,
+  a:link {
+    @extend %btn-blue;
+    @extend %btn-small;
+    margin: 0 auto;
+    display: block;
+    background-size: 30px;
+    background-position: 0 center;
+    font-weight: $sans-bold;
+    max-width: $max-width;
+    text-transform: uppercase;
+  }
 }

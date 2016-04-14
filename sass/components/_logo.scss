@@ -19,7 +19,6 @@
     text-indent: -1000px;
     overflow: hidden;
     height: 0;
-    padding-bottom: (100/300) * 100%; // Intrinsic ratio
 
     background: {
       size: contain;
@@ -29,7 +28,12 @@
 
     &.lb {
       background-image: url('../img/logos/lb-white.svg');
+      padding-bottom: (100/300) * 100%; // Intrinsic ratio
+    }
+    &.lb-small {
       background-position: left center;
+      background-image: url('../img/logos/lb-small.svg');
+      padding-bottom: (100/400) * 100%; // Intrinsic ratio
     }
   }
 }

@@ -33,7 +33,23 @@
     .more-link {
       clear: both;
       text-align: center;
+    }
+  }
 
+  // gallery
+  .gallery {
+    figure {
+      @include layout(2) {
+        @include grid-span(1,1, $output-style: "float", $gutter:0);
+        img {
+          width: 100%;
+        }
+      }
+      @include breakpoint($large) {
+        @include layout(3) {
+          @include grid-span(1,1, $output-style: "float", $gutter:0);
+        }
+      }
     }
   }
 

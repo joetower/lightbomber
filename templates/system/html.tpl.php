@@ -48,7 +48,7 @@
 
     <?php print $styles; ?>
     <?php print $scripts; ?>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,800italic,700,700italic|Signika:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,700italic,800,800italic,600italic,600|Roboto+Slab:400,700|Roboto:500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   </head>
   <body class="<?php print $classes; ?>" <?php print $body_attributes;?>>
     <div id="skip-link">

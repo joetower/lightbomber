@@ -6,11 +6,19 @@
 /////////
 // Type
 $sans: 'Open Sans', Helvetica, Arial, Sans-Serif;
-$sans-head: 'Signika', Helvetica, Arial, sans-serif;
+$serif: 'Roboto Slab', Helvetica, Arial, Sans-Serif;
+$sans-head: 'Roboto', Helvetica, Arial, sans-serif;
 
-$sans-regular: 400;
-$sans-bold: 700;
-$sans-bolder: 800;
+$serif-regular: 400; // roboto slab
+$serif-bold: 700; // roboto slab
+
+$sans-regular: 600; // Open Sans
+$sans-extra-bold: 800; // Open Sans
+
+$sans-bold: 700; // roboto * open sans
+
+$sans-medium: 500; // roboto
+$sans-ultra-bold: 900; // roboto slab
 
 /////////
 // Colors
@@ -51,7 +59,7 @@ $white: #FFFFFF;
 $black: #000;
 
 
-$link: $blue-mid-dark;
+$link: $blue;
 $link-highlight: $blue-lighter;
 
 // Defaults for asseccibility contrast

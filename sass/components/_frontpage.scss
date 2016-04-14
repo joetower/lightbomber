@@ -4,9 +4,11 @@
 //////////////////////////////
 
 .front {
-
   .section-content {
     max-width: $max-width;
+    h2 {
+      color: $white;
+    }
   }
   // top splash
   .top {
@@ -18,34 +20,57 @@
     .section-content {
       margin: 0 auto;
       position: absolute;
-      top:45%;
+      top:55%;
       left:0;
       right:0;
       text-align: center;
-      background-color: rgba($yellow, .8);
-      padding: $space-one-half;
+      background-color: rgba($gray-dark, .9);
+      padding: $space $space-one-half;
+      color: $white;
+      border-bottom: $border-width solid $blue-light;
+      h1 {
+        color: $white;
+      }
     }
   }
 
   // about
   .about {
     background-color: $blue;
-    padding: $space 0;
+    padding: $space-quintuple 0;
+    .section-content {
+
+      @include breakpoint($large) {
+        margin-top: $space;
+      }
+    }
   }
   // gallery
   .gallery {
     background-color: $black;
-    padding: $space 0;
+    padding: $space-quintuple 0;
   }
   // clients
   .clients {
-    background-color: $white;
-    padding: $space 0;
+    background-color: $gray-lightest;
+    padding: $space-quintuple 0;
+    h2 {
+      color: $black;
+    }
+  }
+
+  // app
+  .app {
+    background-color: $blue;
+    padding: $space-quintuple 0;
+    h2 {
+      color: $black;
+    }
   }
   // blog
   .blog {
     background-color: $black;
-    padding: $space 0;
+    padding: $space-quintuple 0;
 
     .teaser {
       color: $white;
@@ -60,8 +85,8 @@
 
   // contact
   .contact {
-    background-color: $gray;
-    padding: $space 0;
+    background-color: $gray-dark;
+    padding: $space-quintuple 0;
 
     .webform-client-form {
       margin: 0 auto;

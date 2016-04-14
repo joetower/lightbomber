@@ -9,10 +9,10 @@ a:link {
   transition: all 0.15s;
 
   &:visited {
-    color: mix(black, $link, 10%);
+    color: mix(white, $link, 10%);
   }
   &:hover {
-    color: mix(black, $link, 60%);
+    color: mix(white, $link, 60%);
   }
 
   // fancy links for full node links

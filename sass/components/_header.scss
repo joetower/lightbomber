@@ -7,7 +7,15 @@ header {
   padding: $space-one-half;
   color: $gray-mid;
 
-  @include breakpoint($large) {
-    padding: $space+$space-one-half $space-one-half;
+  &.site-header {
+    @include breakpoint($large) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: $space-one-fourth;
+      z-index: 1;
+      background-color: rgba($black, .9);
+    }
   }
 }
