@@ -44,7 +44,7 @@
       <div class="section-content">
         <?php print render($content['field_section_3_title']); ?>
       </div>
-      <?php print render($content['field_client_logos']); ?>
+      <?php print render($content['field_client_logo']); ?>
     </div>
   </section>
 

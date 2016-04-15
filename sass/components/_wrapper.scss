@@ -7,7 +7,9 @@
 %wrapper {
   position: relative;
 
-  @include breakpoint($large) {
-    padding-top: 125px;
+  .front & {
+    @include breakpoint($large) {
+      padding-top: 125px;
+    }
   }
 }

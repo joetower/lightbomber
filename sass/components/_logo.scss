@@ -4,13 +4,21 @@
 //////////////////////////////
 
 .logo {
-  @include breakpoint($small-medium) {
-    max-width:300px;
-    min-width: 50px;
-  }
+  .front & {
+  max-width:100px;
 
+    @include breakpoint($large) {
+      max-width:300px;
+      min-width: 50px;
+    }
+  }
   .not-front & {
-    max-width:500px;
+    max-width:300px;
+
+    @include breakpoint($large) {
+      max-width:500px;
+      min-width: 50px;
+    }
   }
 
   .logo {
@@ -33,7 +41,7 @@
     &.lb-small {
       background-position: left center;
       background-image: url('../img/logos/lb-small.svg');
-      padding-bottom: (100/400) * 100%; // Intrinsic ratio
+      padding-bottom: (100/100) * 100%; // Intrinsic ratio
     }
   }
 }

@@ -11,14 +11,17 @@
     display: inline-block;
     padding: $space;
     color: $black;
-    background-color: rgba($yellow, .8);
     text-align: center;
-
+    background-color: $yellow;
+    
+    @include breakpoint($medium) {
+      background-color: rgba($yellow, .8);
+    }
     @include breakpoint($medium) {
       @include font-size(3);
       margin: 0 auto;
       position: absolute;
-      bottom: 42%;
+      bottom: 20%;
       left: 0;
       right: 0;
       max-width: $max-width;

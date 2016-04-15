@@ -10,9 +10,12 @@ a:link {
 
   &:visited {
     color: mix(white, $link, 10%);
+    &:hover {
+      color: mix(black, $link, 40%);
+    }
   }
   &:hover {
-    color: mix(white, $link, 60%);
+    color: mix($white, $link, 60%);
   }
 
   // fancy links for full node links
@@ -28,12 +31,13 @@ a:link {
       &:hover {
         border-color: mix($black, $link-highlight, 40%);
         background-position: -100%;
+        color: mix($black, $link, 40%);
       }
       &:visited {
         border-color: mix($white, $link, 80%);
         &:hover {
-          border-color: mix(black, $link, 40%);
-          color: mix(black, $link, 40%);
+          border-color: mix($black, $link, 40%);
+          color: mix($black, $link, 40%);
         }
       }
     }

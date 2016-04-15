@@ -4,7 +4,6 @@
 //////////////////////////////
 
 header {
-  padding-top: $space;
 
   .container {
     @include clearfix();
@@ -25,48 +24,81 @@ header {
     }
   }
   .logo {
-    @include flexbox();
-    @include flex(1 0 auto);
+    margin-left: auto;
+    margin-right: auto;
 
+    &.lb-small {
+      @include flexbox();
+      @include flex(1 0 100%);
+    }
+    &.lb {
+      display: none;
+    }
     @include breakpoint($small-medium) {
       margin-right: $space;
+      margin-left: 0;
+    }
+    @include breakpoint($large) {
+      &.lb-small {
+        display: none;
+      }
+      &.lb {
+        @include flexbox();
+        @include flex(1 0 auto);
+      }
     }
   }
   a.logo {
     @include flex(0 1 100%);
     order: 1;
     align-self: center;
-
   }
   .main-menu {
     @include flexbox();
-    @include flex(0 1 60%);
+    @include flex(1 0 auto);
     order: 2;
     margin-top: $space-one-half;
+    @include breakpoint($small-medium) {
+      margin-top: 0;
+    }
     .content {
       width: 100%;
-    }
-    @include breakpoint($small-medium) {
-      @include flex(1 0 auto);
-      margin-top: 0;
     }
   }
 }
 
 .not-front {
-  header {
-    a.logo {
-      @include flex(0 1 300px);
-      order: 1;
-      align-self: center;
-      padding-right: 10px;
+  .container {
+    @include flex-direction(row);
+    @include align-items(center);
 
-      @include breakpoint($small-medium) {
+    @include breakpoint($small-medium) {
+      @include flex-direction(row);
+      @include align-items(center);
+    }
+  }
+  header {
+    .logo {
+      margin-right: 0;
+      margin-left: 0;
+      &.lb-small {
+        display: none;
+      }
+      &.lb {
+        @include flexbox();
         @include flex(1 0 auto);
       }
     }
+    a.logo {
+      @include flex(1 0 auto);
+      order: 1;
+      align-self: flex-start;
+      padding-right: 10px;
+    }
     a.back-link {
+      @include flexbox();
       @include flex(0 1 auto);
+      align-self: flex-end;
     }
   }
 }

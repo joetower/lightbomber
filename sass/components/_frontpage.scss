@@ -4,10 +4,15 @@
 //////////////////////////////
 
 .front {
+  section {
+    @include clearfix();
+    clear: both;
+  }
   .section-content {
     max-width: $max-width;
     h2 {
       color: $white;
+
     }
   }
   // top splash
@@ -34,11 +39,23 @@
     }
   }
 
+  // common section padding
+  .about,
+  .gallery,
+  .clients,
+  .app,
+  .blog,
+  .contact {
+    padding: $space 0;
+    @include breakpoint($large) {
+      padding: $space-quintuple 0;
+    }
+  }
   // about
   .about {
-    background-color: $blue;
-    padding: $space-quintuple 0;
+    background-color: $gray-dark;
     .section-content {
+      color: $gray-lightest;
 
       @include breakpoint($large) {
         margin-top: $space;
@@ -48,45 +65,66 @@
   // gallery
   .gallery {
     background-color: $black;
-    padding: $space-quintuple 0;
   }
   // clients
   .clients {
     background-color: $gray-lightest;
-    padding: $space-quintuple 0;
     h2 {
       color: $black;
+    }
+    figure {
+      .file {
+        padding: $space-one-half;
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
     }
   }
 
   // app
   .app {
     background-color: $blue;
-    padding: $space-quintuple 0;
     h2 {
       color: $black;
+    }
+    a.appstore,
+    a.googleplay {
+      @extend %button;
+      @extend %btn-quaternary;
+      display: inline-block;
     }
   }
   // blog
   .blog {
     background-color: $black;
-    padding: $space-quintuple 0;
-
+    .views-row {
+      padding: $space;
+    }
     .teaser {
       color: $white;
     }
     .field-name-body {
       margin-top: $space-one-half;
     }
-    .field-name-field-lb-featured-image {
-      width: 100%;
+    .field-name-field-pb-featured-image {
+      img {
+        width: 100%;
+      }
+    }
+    .byline {
+      margin-top: $space-one-half;
+      padding-top: $space-one-half;
+      border-top: $border-width solid $yellow;
+      p.submitted {
+        @include font-size(1.4);
+      }
     }
   }
-
   // contact
   .contact {
     background-color: $gray-dark;
-    padding: $space-quintuple 0;
 
     .webform-client-form {
       margin: 0 auto;
