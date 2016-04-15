@@ -14,11 +14,12 @@ input[type='submit'] {
   font-family: $sans;
   font-weight: $sans-bold;
   padding: $space-one-half $space;
+  background-color: transparent;
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
   -webkit-appearance: none;
-  transition: all 0.1s;
+  position: relative;
 
   @include breakpoint($large) {
     @include font-size(1.5);
@@ -26,6 +27,7 @@ input[type='submit'] {
   &.more-link {
     font-weight: $sans-bold;
     text-align: center;
+    position: relative;
   }
 }
 
@@ -33,44 +35,34 @@ input[type='submit'],
 a.btn-primary,
 a.btn-primary:link,
 a.btn-primary:visited,
-a.btn-blue,
 .btn-primary,
 .btn-primary:link,
 .btn-primary:visited,
-.btn-blue,
-%btn-blue {
+%btn-primary {
   @include button($blue);
-  color: $black;
+  z-index: 0;
 }
 
 a.btn-secondary,
-a.btn-psecondary:link,
+a.btn-secondary:link,
 a.btn-secondary:visited,
-a.btn-yellow,
 .btn-secondary,
 .btn-secondary:link,
 .btn-secondary:visited,
-.btn-secondary,
-.btn-yellow,
-%btn-yellow {
+%btn-secondary {
   @include button($yellow);
-  color: $black;
+  z-index: 0;
 }
 
 a.btn-tertiary,
 a.btn-tertiary:link,
 a.btn-tertiary:visited,
-%btn-tertiary,
 .btn-tertiary,
 .btn-tertiary:link,
-.btn-tertiary:visited {
-  @include button($red);
-  color: $white;
-}
-%btn-quaternary,
-.btn-quaternary {
+.btn-tertiary:visited,
+%btn-tertiary {
   @include button($white);
-  color: $link;
+  z-index: 0;
 }
 
 a.button.btn-small,
@@ -80,7 +72,6 @@ a.btn-small,
 .btn-small,
 %btn-small {
   @include font-size(1.2);
-
   padding: $space-one-third $space-one-half;
 
   @include breakpoint($large) {
@@ -95,7 +86,6 @@ a.btn-x-small,
 .btn-x-small,
 %btn-x-small {
   @include font-size(1.2);
-
   padding: $space-one-third;
 
   @include breakpoint($large) {

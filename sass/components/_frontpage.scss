@@ -11,8 +11,12 @@
   .section-content {
     max-width: $max-width;
     h2 {
+      @include font-size(2.8);
       color: $white;
 
+      @include breakpoint($large) {
+        @include font-size(4);
+      }
     }
   }
   // top splash
@@ -29,7 +33,7 @@
       left:0;
       right:0;
       text-align: center;
-      background-color: rgba($gray-dark, .9);
+      background-color: rgba($gray-dark, .95);
       padding: $space $space-one-half;
       color: $white;
       border-bottom: $border-width solid $blue-light;
@@ -85,15 +89,42 @@
 
   // app
   .app {
-    background-color: $blue;
-    h2 {
-      color: $black;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#050c35+0,1482e9+50,ec9bf6+100 */
+    background: #050C35; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #050C35 0%, #1482E9 50%, #EC9BF6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #050C35 0%,#1482E9 50%,#EC9BF6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #050C35 0%,#1482E9 50%,#EC9BF6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    .section-content {
+      max-width: 100%;
+      color: $white;
+      @include breakpoint($large) {
+        margin-top: $space;
+      }
     }
-    a.appstore,
+    .buttons {
+      text-align: center;
+      margin-top: $space;
+      p {
+        display: inline-block;
+        position: relative;
+      }
+    }
+    blockquote {
+      color: $gray-lightest;
+    }
+    cite {
+      @include font-size(1.5);
+    }
+    a.apple,
     a.googleplay {
       @extend %button;
-      @extend %btn-quaternary;
+      @extend %btn-tertiary;
+      background-position: $space center;
+      padding-left: $space-double;
       display: inline-block;
+    }
+    a.googleplay {
+      margin-left: $space;
     }
   }
   // blog

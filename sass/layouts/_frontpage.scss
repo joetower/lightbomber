@@ -80,5 +80,17 @@
       }
     }
   }
+  // app
+  .app {
+    @include breakpoint($small-medium) {
+      figure {
+        @include grid-span(6,11);
+      }
+      .section-content {
+        @include grid-span(10,1);
+        max-width: $max-width;
+      }
+    }
+  }
 
 }

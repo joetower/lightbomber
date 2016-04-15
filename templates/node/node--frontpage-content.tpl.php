@@ -50,9 +50,15 @@
 
   <section class="app" id="app" <?php print $content_attributes; ?>>
     <div class="container">
+      <?php print render($content['field_app_image']); ?>
+
       <div class="section-content">
         <?php print render($content['field_section_4_title']); ?>
-        <?php print render($content['field_link']); ?>
+        <?php print render($content['field_app_blurb']); ?>
+        <?php print render($content['field_app_text']); ?>
+        <div class="buttons">
+          <?php print render($content['field_link']); ?>
+        </div>
       </div>
     </div>
   </section>

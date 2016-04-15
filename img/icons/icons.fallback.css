@@ -34,6 +34,26 @@
 
 .icon-add_circle { background-image: url('png/add_circle.png'); background-repeat: no-repeat; }
 
+.apple:hover,
+.icon-apple-black { background-image: url('png/apple-black.png'); background-repeat: no-repeat; }
+
+.icon-apple-blue { background-image: url('png/apple-blue.png'); background-repeat: no-repeat; }
+
+.icon-apple-blueDark { background-image: url('png/apple-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-apple-blueLight { background-image: url('png/apple-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-apple-gray { background-image: url('png/apple-gray.png'); background-repeat: no-repeat; }
+
+.icon-apple-grayDark { background-image: url('png/apple-grayDark.png'); background-repeat: no-repeat; }
+
+.apple,
+.icon-apple-white { background-image: url('png/apple-white.png'); background-repeat: no-repeat; }
+
+.icon-apple-yellow { background-image: url('png/apple-yellow.png'); background-repeat: no-repeat; }
+
+.icon-apple { background-image: url('png/apple.png'); background-repeat: no-repeat; }
+
 .icon-arrow_drop_down-black { background-image: url('png/arrow_drop_down-black.png'); background-repeat: no-repeat; }
 
 .icon-arrow_drop_down-blue { background-image: url('png/arrow_drop_down-blue.png'); background-repeat: no-repeat; }
@@ -570,6 +590,26 @@ blockquote,
 .icon-pinterest-yellow { background-image: url('png/pinterest-yellow.png'); background-repeat: no-repeat; }
 
 .icon-pinterest { background-image: url('png/pinterest.png'); background-repeat: no-repeat; }
+
+.googleplay:hover,
+.icon-play-black { background-image: url('png/play-black.png'); background-repeat: no-repeat; }
+
+.icon-play-blue { background-image: url('png/play-blue.png'); background-repeat: no-repeat; }
+
+.icon-play-blueDark { background-image: url('png/play-blueDark.png'); background-repeat: no-repeat; }
+
+.icon-play-blueLight { background-image: url('png/play-blueLight.png'); background-repeat: no-repeat; }
+
+.icon-play-gray { background-image: url('png/play-gray.png'); background-repeat: no-repeat; }
+
+.icon-play-grayDark { background-image: url('png/play-grayDark.png'); background-repeat: no-repeat; }
+
+.googleplay,
+.icon-play-white { background-image: url('png/play-white.png'); background-repeat: no-repeat; }
+
+.icon-play-yellow { background-image: url('png/play-yellow.png'); background-repeat: no-repeat; }
+
+.icon-play { background-image: url('png/play.png'); background-repeat: no-repeat; }
 
 .icon-play_arrow-black { background-image: url('png/play_arrow-black.png'); background-repeat: no-repeat; }
 

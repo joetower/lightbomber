@@ -5,15 +5,18 @@
 
 .more-link {
   a,
-  a:link {
-    @extend %btn-blue;
+  a:link,
+  a:visited {
+    @extend %button;
+    @extend %btn-primary;
     @extend %btn-small;
     margin: 0 auto;
-    display: block;
-    background-size: 30px;
-    background-position: 0 center;
     font-weight: $sans-bold;
     max-width: $max-width;
     text-transform: uppercase;
+
+    .view & {
+      display: block;
+    }
   }
 }

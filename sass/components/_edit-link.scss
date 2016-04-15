@@ -10,7 +10,7 @@
   a,
   a:visited {
     @extend %button;
-    @extend %btn-tertiary;
+    @extend %btn-secondary;
     @extend %btn-small;
     display: block;
     color: $white;

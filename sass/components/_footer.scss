@@ -25,7 +25,7 @@ footer {
     margin-top: $space;
     text-align: center;
 
-    @include breakpoint($large) {
+    @include breakpoint($small-medium) {
       text-align: right;
     }
     p + p {

@@ -69,8 +69,10 @@ module.exports = {
       'pinterest-white': ['.pinterest'],
       'twitter-white': ['.twitter'],
       'tumblr-white': ['.tumblr'],
-      'apple-blue': ['.apple'],
-      'play-blue': ['.googleplay'],
+      'apple-white': ['.apple'],
+      'play-white': ['.googleplay'],
+      'apple-black': ['.apple:hover'],
+      'play-black': ['.googleplay:hover'],
     },
   }
 };
