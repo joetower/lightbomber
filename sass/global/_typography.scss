@@ -176,10 +176,10 @@ figcaption {
 
 // quotes
 blockquote {
-  @include font-size(1.6);
+  @include font-size(2.4);
 
   @include breakpoint($large) {
-    @include font-size(2);
+    @include font-size(3);
   }
 }
 

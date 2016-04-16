@@ -185,8 +185,10 @@ div:not(#foo) input[type="checkbox"] + label,
 
 .icon-check_circle { background-image: url('png/check_circle.png'); background-repeat: no-repeat; }
 
+.back-link:hover,
 .icon-chevron_left-black { background-image: url('png/chevron_left-black.png'); background-repeat: no-repeat; }
 
+.back-link,
 .icon-chevron_left-blue { background-image: url('png/chevron_left-blue.png'); background-repeat: no-repeat; }
 
 .icon-chevron_left-blueDark { background-image: url('png/chevron_left-blueDark.png'); background-repeat: no-repeat; }

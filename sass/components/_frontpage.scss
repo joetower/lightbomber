@@ -119,9 +119,9 @@
     a.googleplay {
       @extend %button;
       @extend %btn-tertiary;
+      display: inline-block;
       background-position: $space center;
       padding-left: $space-double;
-      display: inline-block;
     }
     a.googleplay {
       margin-left: $space;

@@ -56,10 +56,10 @@
 
     display: block;
     font-weight: $sans-bold;
-    background-color: $blue;
     color: $black;
     text-align: center;
     padding: $space-one-third $space-one-fourth;
+    background-color: $blue;
 
     @include breakpoint($large) {
       @include font-size(1.6);
@@ -67,16 +67,16 @@
       padding: $space-one-half $space-one-half;
     }
     &:hover {
-      background-color: $gray;
+      background-color: $blue-mid-dark;
       color: $gray-lightest;
     }
     &.active,
     &.is-active {
       color: $white;
-      background-color: $gray-dark;
+      background-color: $blue-mid-dark;
       &:visited {
         color: $white;
-        background-color: $gray-dark;
+        background-color: $blue-mid-dark;
       }
     }
   }

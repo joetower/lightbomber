@@ -73,6 +73,8 @@ module.exports = {
       'play-white': ['.googleplay'],
       'apple-black': ['.apple:hover'],
       'play-black': ['.googleplay:hover'],
+      'chevron_left-blue': ['.back-link'],
+      'chevron_left-black': ['.back-link:hover'],
     },
   }
 };

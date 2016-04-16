@@ -40,7 +40,6 @@ a.btn-primary:visited,
 .btn-primary:visited,
 %btn-primary {
   @include button($blue);
-  z-index: 0;
 }
 
 a.btn-secondary,
@@ -51,7 +50,6 @@ a.btn-secondary:visited,
 .btn-secondary:visited,
 %btn-secondary {
   @include button($yellow);
-  z-index: 0;
 }
 
 a.btn-tertiary,
@@ -62,7 +60,6 @@ a.btn-tertiary:visited,
 .btn-tertiary:visited,
 %btn-tertiary {
   @include button($white);
-  z-index: 0;
 }
 
 a.button.btn-small,
