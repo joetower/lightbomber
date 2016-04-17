@@ -9,12 +9,14 @@
   }
   // about
   .about {
-    figure {
-      @include grid-span(8,1);
-    }
-    .section-content {
-      @include grid-span(8,9);
-      max-width: $max-width;
+    @include breakpoint($medium) {
+      figure {
+        @include grid-span(8,1);
+      }
+      .section-content {
+        @include grid-span(8,9);
+        max-width: $max-width;
+      }
     }
   }
   // clients
@@ -89,6 +91,9 @@
       .section-content {
         @include grid-span(10,1);
         max-width: $max-width;
+      }
+      blockquote {
+        margin-top: $space-double;
       }
     }
   }

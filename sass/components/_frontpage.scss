@@ -51,6 +51,7 @@
   .blog,
   .contact {
     padding: $space 0;
+
     @include breakpoint($large) {
       padding: $space-quintuple 0;
     }
@@ -94,6 +95,7 @@
     background: -moz-linear-gradient(45deg,  #050C35 0%, #1482E9 50%, #EC9BF6 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  #050C35 0%,#1482E9 50%,#EC9BF6 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg,  #050C35 0%,#1482E9 50%,#EC9BF6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     .section-content {
       max-width: 100%;
       color: $white;
@@ -102,12 +104,15 @@
       }
     }
     .buttons {
-      text-align: center;
       margin-top: $space;
-      p {
-        display: inline-block;
-        position: relative;
+
+      @include breakpoint($small-medium) {
+        text-align: center;
+        p {
+          display: inline-block;
+        }
       }
+
     }
     blockquote {
       color: $gray-lightest;
@@ -119,12 +124,17 @@
     a.googleplay {
       @extend %button;
       @extend %btn-tertiary;
-      display: inline-block;
+      display: block;
       background-position: $space center;
       padding-left: $space-double;
+      @include breakpoint($small-medium) {
+        display: inline-block;
+      }
     }
-    a.googleplay {
-      margin-left: $space;
+    @include breakpoint($small-medium) {
+      a.googleplay {
+        margin-left: $space;
+      }
     }
   }
   // blog
@@ -156,7 +166,12 @@
   // contact
   .contact {
     background-color: $gray-dark;
-
+    .section-content {
+      max-width: 100%;
+    }
+    h2 {
+      text-align: center;
+    }
     .webform-client-form {
       margin: 0 auto;
     }
