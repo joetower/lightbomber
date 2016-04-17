@@ -12,8 +12,14 @@
   }
   .field-name-field-lb-featured-image {
     text-align: center;
+    img {
+      transition: all .3s;
+    }
+    img:hover {
+      filter: saturate(180%);
+    }
   }
-  .field-name-field-lb-extra-image {
+  .container {
     @include clearfix();
 
     @include flexbox();
@@ -26,7 +32,7 @@
     margin-top: $space;
     margin-bottom: $space;
 
-    .field-items {
+    .images {
       @include flexbox();
       @include flex-wrap(wrap);
       @include flex-direction(row);
@@ -34,11 +40,16 @@
       @include align-items(flex-start);
       @include align-content(space-between);
     }
-    .field-item {
+    figure {
       @include flexbox();
       @include flex(0 1 90px);
       margin: $space-one-sixth;
-
+      img {
+        transition: all .3s;
+      }
+      img:hover {
+        filter: saturate(180%);
+      }
       a,
       img {
         width: 100%;

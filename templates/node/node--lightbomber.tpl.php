@@ -37,8 +37,9 @@
     <?php if ($page): ?>
     <div class="container">
     <?php endif; ?>
-
+    <div class="images">
       <?php print render($content['field_lb_extra_image']); ?>
+    </div>
       <?php print render($content['field_lb_video']); ?>
 
       <div class="content-wrap">

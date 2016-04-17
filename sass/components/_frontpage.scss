@@ -70,6 +70,14 @@
   // gallery
   .gallery {
     background-color: $black;
+    figure {
+      img {
+        transition: all .3s;
+      }
+      img:hover {
+        filter: saturate(180%);
+      }
+    }
   }
   // clients
   .clients {
@@ -152,6 +160,14 @@
     .field-name-field-pb-featured-image {
       img {
         width: 100%;
+      }
+    }
+    figure {
+      img {
+        transition: all .3s;
+      }
+      img:hover {
+        filter: saturate(180%);
       }
     }
     .byline {
