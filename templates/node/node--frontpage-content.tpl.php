@@ -76,6 +76,14 @@
     <div class="container">
       <div class="section-content">
         <?php print render($content['field_section_6_title']); ?>
+        <div class="contact-content">
+          <p>Please fill out the form below, or contact us directly:</p>
+          <ul>
+            <li>ryan at lightbomber dotcom</li>
+            <li>michelle at lightbomber dotcom</li>
+          </ul>
+          <p>We look forward to speaking with you.</p>
+        </div>
       </div>
       <?php
         $block = module_invoke('webform', 'block_view', 'client-block-698');

@@ -11,16 +11,16 @@ a.button:visited,
 %button,
 input[type='submit'] {
   @include font-size(1.4);
+  display: inline-block;
+  margin-top: 0;
   font-family: $sans;
   font-weight: $sans-bold;
   padding: $space-one-half $space;
   background-color: transparent;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 0;
   -webkit-appearance: none;
   position: relative;
-  display: inline-block;
   transition: all 0.2s;
 
   @include breakpoint($large) {

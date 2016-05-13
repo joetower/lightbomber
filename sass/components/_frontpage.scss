@@ -185,6 +185,12 @@
     .section-content {
       max-width: 100%;
     }
+    .contact-content {
+      margin: 0 auto;
+      max-width: $max-width;
+      color: $white;
+      padding: $space;
+    }
     h2 {
       text-align: center;
     }
