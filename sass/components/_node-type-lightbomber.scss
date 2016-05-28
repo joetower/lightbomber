@@ -9,14 +9,23 @@
     padding: $space;
     border-top: $border-width solid $yellow;
     background-color: $white;
+    margin-top: $space;
   }
+  .node-top {
+    &:hover {
+      img {
+        filter: saturate(180%);
+      }
+    }
+    h1 {
+      z-index: 1;
+    }
+  }
+
   .field-name-field-lb-featured-image {
     text-align: center;
     img {
       transition: all .3s;
-    }
-    img:hover {
-      filter: saturate(180%);
     }
   }
   .container {

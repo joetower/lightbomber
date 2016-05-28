@@ -1,0 +1,9 @@
+//////////////////////////////
+// cboxTitle
+// @_cboxTitle.scss
+//////////////////////////////
+
+#cboxTitle {
+  @include font-size(1.4);
+  font-weight: $sans-regular;
+}

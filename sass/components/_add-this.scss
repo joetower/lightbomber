@@ -6,7 +6,9 @@
 .add-this {
   background-color: $gray-lightest;
   border-top: $border-width solid $gray-lighter;
-
+  margin: 0 auto;
+  text-align: center;
+  
   a {
     + a {
       margin-left: $space;

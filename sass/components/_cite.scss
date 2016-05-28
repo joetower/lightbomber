@@ -1,0 +1,13 @@
+//////////////////////////////
+// cite
+// @_cite.scss
+//////////////////////////////
+
+cite {
+  margin: $space-one-half $space $space;
+  font-family: $sans;
+  font-weight: $sans-bold;
+  padding: $space-one-third 0 $space-one-third $space-double;
+  font-style: italic;
+  max-width: $max-width;
+}

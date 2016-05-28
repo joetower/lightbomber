@@ -57,7 +57,10 @@
         <?php print render($content['field_app_blurb']); ?>
         <?php print render($content['field_app_text']); ?>
         <div class="buttons">
-          <?php print render($content['field_link']); ?>
+          <div class="coming-soon">
+            <strong>Coming soon for iOS and Android</strong>
+          </div>
+          <!-- <?php print render($content['field_link']); ?> -->
         </div>
       </div>
     </div>
