@@ -4,13 +4,6 @@
 //////////////////////////////
 
 .node-type-photo-booth {
-  .content-wrap {
-    @include clearfix();
-    padding: $space;
-    border-top: $border-width solid $yellow;
-    background-color: $white;
-    margin-top: $space;
-  }
   .node-top {
     &:hover {
       img {

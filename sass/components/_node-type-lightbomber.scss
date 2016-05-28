@@ -4,13 +4,6 @@
 //////////////////////////////
 
 .node-type-lightbomber {
-  .content-wrap {
-    @include clearfix();
-    padding: $space;
-    border-top: $border-width solid $yellow;
-    background-color: $white;
-    margin-top: $space;
-  }
   .node-top {
     &:hover {
       img {
@@ -21,7 +14,6 @@
       z-index: 1;
     }
   }
-
   .field-name-field-lb-featured-image {
     text-align: center;
     img {

@@ -88,7 +88,7 @@
     <?php print render($title_suffix); ?>
   </header>
 
-  <div class="content"<?php print $content_attributes; ?>>
+  <div class="content wrapper"<?php print $content_attributes; ?>>
     <div class="container">
       <div class="content-wrap">
         <?php

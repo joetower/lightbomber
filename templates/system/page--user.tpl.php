@@ -44,7 +44,11 @@
 
   <?php if ($page['content']): ?>
     <main id="main" role="main">
-      <?php print render($page['content']); ?>
+      <div class="container">
+        <div class="content-wrap">
+          <?php print render($page['content']); ?>
+        </div>
+      </div>
     </main>
   <?php endif; ?>
 

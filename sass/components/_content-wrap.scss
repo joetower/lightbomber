@@ -1,0 +1,12 @@
+//////////////////////////////
+// content-wrap
+// @_content-wrap.scss
+//////////////////////////////
+
+.content-wrap {
+  @include clearfix();
+  padding: $space;
+  border-top: $border-width solid $yellow;
+  background-color: $white;
+  margin-top: $space;
+}

@@ -13,7 +13,7 @@
   background-size: 32px;
   box-shadow: none;
   border-radius: 0;
-  
+
   &.error {
     color: $white;
     background-color: $red;
@@ -27,5 +27,11 @@
   &.status {
     background-color: $green;
     border: $border-width solid $green-dark;
+  }
+  a {
+    color: $yellow-lighter;
+    &:hover {
+      color: $white;
+    }
   }
 }
