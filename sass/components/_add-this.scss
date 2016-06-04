@@ -6,14 +6,21 @@
 .add-this {
   background-color: $gray-lightest;
   border-top: $border-width solid $gray-lighter;
-  .content {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 450px;
+  @include breakpoint($small-social) {
+    .content {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 450px;
+    }
   }
   a {
-    + a {
-      margin-left: $space;
+    margin-bottom: $space-one-half;
+
+    @include breakpoint($small-social) {
+      margin-bottom: 0;
+      + a {
+        margin-left: $space;
+      }
     }
   }
   .content {

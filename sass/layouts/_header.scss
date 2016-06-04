@@ -18,6 +18,7 @@ header {
     @include breakpoint($small-medium) {
       @include flex-direction(row);
       @include align-items(center);
+      @include flex-wrap(nowrap);
     }
     @include breakpoint($large) {
       @include justify-content(space-between);
