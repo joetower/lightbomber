@@ -4,8 +4,9 @@
 //////////////////////////////
 
 .view-id-blog {
-  @extend %container;
-
+  &.view-display-id-page_with_page_title_1 {
+    @extend %container;
+  }
   figure img {
     width: 100%;
   }

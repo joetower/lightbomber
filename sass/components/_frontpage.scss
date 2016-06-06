@@ -28,15 +28,17 @@
     }
     .section-content {
       margin: 0 auto;
-      position: absolute;
-      top:55%;
-      left:0;
-      right:0;
       text-align: center;
       background-color: rgba($gray-dark, .95);
       padding: $space $space-one-half;
       color: $white;
       border-bottom: $border-width solid $blue-light;
+      @include breakpoint($small-medium) {
+        position: absolute;
+        top:55%;
+        left:0;
+        right:0;
+      }
       h1 {
         color: $white;
       }
@@ -150,8 +152,10 @@
   // blog
   .blog {
     background-color: $black;
-    .views-row {
-      padding: $space;
+    @include breakpoint($large) {
+      .views-row {
+        padding: $space;
+      }
     }
     .teaser {
       color: $white;
