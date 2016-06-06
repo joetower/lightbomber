@@ -3,9 +3,12 @@
 // @_view-id-blog.scss
 //////////////////////////////
 
-.view-id-blog {
+.view-id-blog,
+.view-id-photo_booth,
+.view-id-lightbomber {
   &.view-display-id-page_with_page_title_1 {
     @extend %container;
+    margin-top: $space-one-half;
   }
   figure img {
     width: 100%;
@@ -25,6 +28,8 @@
     }
   }
   .views-row {
+    margin-top: $space;
+
     @include breakpoint($small-medium) {
       @include layout(2) {
         @include grid-span(1,1, $output-style:"float", $gutter:0);
