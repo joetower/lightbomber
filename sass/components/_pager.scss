@@ -1,0 +1,84 @@
+//////////////////////////////
+// pager
+// @_pager.scss
+//////////////////////////////
+
+ul.pager {
+  @include flexbox();
+  @include flex-wrap(wrap);
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+  @include align-content(center);
+
+  margin: $space-double 0 0;
+  padding: 0;
+  font-family: $sans;
+  @include breakpoint($large) {
+    @include flex-wrap(nowrap);
+    @include flex-direction(row);
+  }
+
+  li {
+    @include flex(1 0 33.33%);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 4;
+    text-align: center;
+
+    @include breakpoint($medium) {
+      @include flex(1 0 25%);
+    }
+    @include breakpoint($large) {
+      @include flex(1 0 auto);
+      line-height: 2;
+    }
+    a {
+      display: block;
+      width: 100%;
+    }
+    &.pager-first,
+    &.pager-previous,
+    &.pager-next,
+    &.pager-last {
+      @include flex(2 0 50%);
+
+      @include breakpoint($large) {
+        @include flex(2 0 auto);
+      }
+      a {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  a,
+  a:link,
+  li.pager-ellipsis {
+    display: block;
+    background-color:$blue-light;
+    color: $white;
+  }
+  a:hover {
+    background-color: $blue;
+    color: $blue-lightest;
+  }
+  li.pager-current {
+    display: inline-block;
+    background-color:$yellow;
+    color:$white;
+  }
+  a,
+  a:link,
+  li.pager-current,
+  li.pager-ellipsis {
+
+    @include breakpoint($large) {
+      padding: 10px 20px;
+    }
+    @include breakpoint($x-large) {
+      padding: 10px 15px;
+    }
+  }
+}

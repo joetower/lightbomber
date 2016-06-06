@@ -4,11 +4,17 @@
 //////////////////////////////
 
 .content-wrap {
-  .not-front & {
+  .not-front .full & {
     @include clearfix();
     padding: $space;
     border-top: $border-width solid $yellow;
     background-color: $white;
     margin-top: $space;
+  }
+  .not-front .teaser & {
+    @include clearfix();
+    padding: $space;
+    border-top: $border-width solid $yellow;
+    background-color: $white;
   }
 }
